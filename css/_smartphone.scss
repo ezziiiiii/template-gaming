@@ -1,0 +1,351 @@
+@media (max-width: 767px) {
+	//----------HEADER----------//
+	header {
+		.left {
+			li {
+				margin-right: 0px !important;
+			}
+		}
+	}
+
+	//----------MENU----------//
+	menu {
+		h1 {
+			padding: 0px 10px;
+		}
+		.dropdown-menu {
+			li {
+				a {
+					color: #fff !important;
+				}
+			}
+			background: rgba(22, 13, 16, .8) !important; 
+		}
+	}
+
+	//----------BANNER----------// 
+	.banner {
+		img {
+			height: 200px !important;
+		}
+		//----------JUMBOTRON----------//
+		.jumbotron {
+			h4 {
+				font-size: 8px;
+				margin: 0px;
+				position: relative !important;
+				top: 10px !important;
+			}
+			p {
+				font-size: 7px !important;
+				position: relative !important;
+				top: 20px !important;
+				margin-bottom: 27px !important;
+			}
+			a {
+				width: 0px !important;
+				height: 0px !important;
+				font-size: 5px !important;
+				padding: 5px !important;
+				border-radius: 3px !important;
+				position: relative;
+				top: 15px !important;
+			}
+			width: 140px !important;
+			height: 170px !important;
+			position: relative !important;
+			left: 241px !important;
+			top: -220px !important;
+			padding: 5px 20px !important;
+		}
+		//----------LIST_GAME----------//
+		.list_game {
+			a {
+				position: relative;
+				top: -240px !important;
+				left: 231px !important;
+			}
+			#list1, #list2, #list3, #list4 {
+				width: 35px !important;
+				height: 30px !important;
+				position: relative;
+				top: -10px !important;
+			}
+			#list1 {
+				left: 10px !important;
+			}
+			#list2 {
+				left: 6px !important;
+			}
+			#list3 {
+				left: 3px !important;
+			}
+			#list4 {
+				left: -1px !important;
+			}
+		}
+		height: 230px !important;
+	}
+
+	//----------TYPEGAME----------//
+	.typeGame {
+		.pc, .ps4, .xbox {
+			width: 100% !important;
+			margin-bottom: 10px !important;
+		}
+	}
+
+	//----------LATESTNEWS----------//
+	.latestNews {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 42% !important;
+		}
+		.leftNews {
+			margin-bottom: 10px !important;
+		}
+		.listBottom {
+			margin-bottom: 20px;
+		}
+	}
+
+	//----------LATESTPOST----------//
+	.latestPost {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 44% !important;
+		}
+		.postLeft {
+			margin-right: 0px !important;
+			margin-bottom: 30px !important;
+		}
+	}
+
+	//----------LATESTMATCHES----------//
+	.latestMatches {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 30% !important;
+		}
+		.matchesTop {
+			.matchestopLeft {
+				padding-right: 0px !important;
+			}
+			.matchestopRight {
+				padding-left: 0px !important;
+			}
+		}
+		.matchesBot {
+			.list {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	//----------BESTSELLING----------//
+	.bestSelling {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 42% !important;
+		}
+		.listbestSelling {
+			.sell {
+				width: 100%;
+				display: inline-block;
+			}
+		}
+	}
+
+	//----------SOCIAL----------//
+	.social {
+		h3:before {
+	    width: 3% !important;
+		}
+		h3:after {
+	    width: 44% !important;
+		}
+		.icon {
+			i {
+				width: 100% !important;
+				text-align: center;
+			}
+		}
+		width: 100% !important;
+	}
+
+	//----------LATESTVIDEO----------//
+	.latestVideo {
+		h3:before {
+	    width: 3% !important;
+		}
+		h3:after {
+	    width: 49% !important;
+		}
+	}
+
+	//----------RECENT----------//
+	.recent {
+		h3:before {
+	    width: 3% !important;
+		}
+		h3:after {
+	    width: 49% !important;
+		}
+	}
+
+	//----------LATESTSS----------//
+	.latestSS {
+		h3:before {
+	    width: 3% !important;
+		}
+		h3:after {
+	    width: 21% !important;
+		}
+	}
+
+	//----------CONTENT----------//
+	.left {
+		margin: 0px !important;
+	}
+	
+	
+	.postLeft {
+		margin-bottom: 20px !important;
+	}
+	.groupTop {
+		input[type=email] {
+			margin-bottom: 10px;
+		}
+	}
+
+	//----------FOOTER----------//
+	.footerPost {
+		.font {
+			padding: 0px;
+		}
+		margin-bottom: 10px;
+	}
+	.footerBot {
+		.medsos {
+			li {
+				margin-right: 0px !important;
+			}
+		}
+	}
+
+	//----------GALLERY----------//
+	.gallery {
+		margin-bottom: 0px !important;
+	}
+
+	//----------BLOG----------//
+	.blog {
+		.post {
+			margin-bottom: 20px !important;
+		}
+		margin-bottom: 0px !important;
+	}
+
+	//----------SINGLE_BLOG----------//
+	.related-blog {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 30% !important;
+	    }
+	    .blog {
+	    	margin-bottom: 30px !important;
+	    }
+	}
+
+	//----------STORE----------//
+	.store {
+		.listStore {
+			display: inline-block;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+	}
+
+	//----------SINGLE_STORE----------//
+	.single-store {
+		img {
+			margin-bottom: 10px !important;
+		}
+	}
+	.related-product {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 15% !important;
+		}
+		.product {
+			margin-bottom: 20px !important;
+		}
+	}
+
+	//----------TOURNAMENT----------//
+	.tournament {
+		.live-match {
+			h3:before {
+				width: 3% !important;
+			}
+			h3:after {
+				width: 42% !important;
+			}
+		}
+		.upcoming-match {
+			h3:before {
+				width: 3% !important;
+			}
+			h3:after {
+				width: 19% !important;
+			}
+		}
+		.recent-result {
+			h3:before {
+				width: 3% !important;
+			}
+			h3:after {
+				width: 36% !important;
+			}
+		}
+	}
+
+	//----------SINGLE-TOURNAMENT----------//
+	.single-tournament {
+		.video {
+			iframe {
+				width: 366px !important;
+				height: 206px !important;
+			}
+		}
+		.watch-user {
+			.game {
+				p {
+					margin-top: 24px !important;
+				}
+			}
+			.viewers {
+				h3 {
+					float: left !important;
+				}
+			}
+		}
+	}
+
+	//----------LOGIN----------//
+	.login {
+		width: 360px !important;
+	}
+}

@@ -1,0 +1,298 @@
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	//----------HEADER----------//
+	header {
+		.left {
+			margin-right: 245px !important;
+		}
+		.right {
+			display: inline-block !important;
+		}
+	}
+
+	//----------MENU----------//
+	menu {
+		.navbar-nav {
+			li {
+				margin: 20px 0px !important;
+			}
+		}
+	}
+
+	//----------BANNER----------//
+	.banner {
+		img {
+			height: 300px !important;
+		}
+
+		//----------JUMBOTRON----------//
+		.jumbotron {
+			h4 {
+				font-size: 14px !important;
+				margin: 0px;
+			}
+			p {
+				font-size: 11px !important;
+				margin-bottom: 35px !important;
+			}
+			a {
+				font-size: 8px !important;
+			}
+			width: 221px !important;
+			height: 270px !important;
+			position: relative;
+			left: 514px !important;
+			top: -320px !important;
+		}
+
+		//----------LIST_GAME----------//
+		.list_game {
+			a {
+				position: relative;
+				top: -360px !important;
+				left: 504px !important;
+			}
+			#list1, #list2, #list3, #list4 {
+				width: 55px !important;
+				height: 50px !important;
+				position: relative;
+				top: -10px !important;
+			}
+			#list1 {
+				left: 10px !important;
+			}
+			#list2 {
+				left: 6px !important;
+			}
+			#list3 {
+				left: 3px !important;
+			}
+			#list4 {
+				left: -1px !important;
+			}
+		}
+		height: 330px !important;
+	}
+
+	//----------TYPEGAME----------//
+	.typeGame {
+		img {
+			width: 80px !important;
+			height: 70px !important; 
+		}
+		.pc, .ps4, .xbox {
+			background-color: #283337; 
+			padding: 0px;
+			margin-right: 15px !important;
+			width: 230px !important;
+			height: 70px !important;
+			border-radius: 5px;
+			margin-bottom: 10px;
+		}
+		.xbox {
+			margin-right: 0px !important;
+		}
+		.font {
+			color: $menu_color;
+		}
+		a {
+			color: #c9244f;
+		}
+		a:hover {
+			opacity:0.5;
+		    text-decoration: none;
+		}
+		margin-bottom: 10px;
+	}
+
+	//----------LATESTNEWS----------//
+	.latestNews {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 69% !important;
+		}
+		.news {
+			margin-bottom: 20px !important;
+		}
+		.leftNews {
+			.listNews {
+				img {
+					margin-bottom: 10px !important;
+				}
+			}
+			margin-bottom: 10px !important;
+		}
+		.listBottom {
+			margin-bottom: 20px;
+		}
+	}
+
+	//----------LATESTPOST----------//
+	.latestPost {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 70% !important;
+		}
+	}
+
+	//----------LATESTMATCHES----------//
+	.latestMatches {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 63% !important;
+		}
+		.matchesTop {
+			.matchestopLeft {
+				p {
+					margin-bottom: 50px !important;
+				}
+			}
+			display: inline-block;
+		}
+		.matchesBot {
+			.listMatches1, .listMatches2, .listMatches3 {
+				width: 100% !important;
+			}
+			.list {
+				img {
+					width: 80px !important;
+					height: 80px !important;
+				}
+				.font {
+					font-size: 13px !important;
+				}
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	//----------BESTSELLING----------//
+	.bestSelling {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 69% !important;
+		}
+		.listbestSelling {
+			display: inline-block;
+			width: 100%;
+		}
+	}
+
+	//----------SOCIAL----------//
+	.social {
+		h3:before {
+	    width: 3% !important;
+		}
+		h3:after {
+	    width: 73% !important;
+		}
+		.icon {
+			i {
+				width: 100% !important;
+				text-align: center;
+			}
+		}
+		width: 100% !important;
+	}
+
+	//----------LATESTVIDEO----------//
+	.latestVideo {
+		h3:before {
+	    width: 3% !important;
+		}
+		h3:after {
+	    width: 75% !important;
+		}
+	}
+
+	//----------RECENT----------//
+	.recent {
+		h3:before {
+	    width: 3% !important;
+		}
+		h3:after {
+	    width: 75% !important;
+		}
+	}
+
+	//----------LATESTSS----------//
+	.latestSS {
+		h3:before {
+	    width: 3% !important;
+		}
+		h3:after {
+	    width: 61% !important;
+		}
+	}
+
+	//----------FOOTER----------//
+	.footerLeft {
+		margin-bottom: 20px !important;
+	}
+
+	//----------SINGLE-BLOG----------//
+	.related-blog {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 67% !important;
+	    }
+	}
+
+	//----------SINGLE-STORE----------//
+	.related-product {
+		h3:before {
+	    	width: 3% !important;
+		}
+		h3:after {
+	    	width: 60% !important;
+		}
+	}
+
+	//----------TOURNAMENT----------//
+	.tournament {
+		.live-match {
+			h3:before {
+				width: 3% !important;
+			}
+			h3:after {
+				width: 71% !important;
+			}
+		}
+		.upcoming-match {
+			h3:before {
+				width: 3% !important;
+			}
+			h3:after {
+				width: 60% !important;
+			}
+		}
+		.recent-result {
+			h3:before {
+				width: 3% !important;
+			}
+			h3:after {
+				width: 68% !important;
+			}
+		}
+	}
+
+	//----------SINGLE-TOURNAMENT----------//
+	.single-tournament {
+		.video {
+			iframe {
+				width: 720px !important;
+				height: 400px !important;
+			}
+		}
+	}
+}

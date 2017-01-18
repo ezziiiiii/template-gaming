@@ -1,0 +1,33 @@
+//----------BLOG----------//
+.blog {
+	.post {
+		img {
+			width: 100%;
+		}
+		i {
+			color: $menu_color;
+			margin-bottom: 10px;
+		}
+		span {
+			color: #728d9e;
+		}
+		p {
+			margin-bottom: 20px;
+		}
+		a.user {
+			color: #C9244F;
+		}
+	}
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+//----------PAGINATION----------//
+.navigation {
+	.pagination {
+		span, a {
+			color: #000;
+		}
+
+	}
+}

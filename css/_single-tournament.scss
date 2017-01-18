@@ -1,0 +1,95 @@
+//----------SINGLE-TOURNAMENT----------//
+.single-tournament {
+	.video {
+		iframe {
+			width: 750px;
+			height: 422px;
+		}
+		margin-bottom: 10px;
+	}
+	.watch {
+		h3 {
+			color: $menu_color;
+		}
+		.watch-user {
+			.game {
+				.icon {
+					padding: 5px;
+				}
+				.title {
+					p {
+						color: #728d9e;
+						margin: 30px 0px 0px;
+					}
+					padding: 5px;
+				}
+				padding: 0px;
+			}
+			.viewers {
+				h3 {
+					color: #728d9e;
+					margin: 28px 0px 0px;
+				}
+				padding: 0px;
+			}
+			display: inline-block;
+			width: 100%;
+		}
+		.garis {
+			border-bottom: 1px solid #728d9e;
+			margin-bottom: 10px;
+		}
+		.action-user {
+			.share {
+				span {
+					color: #728d9e;
+				}
+				.collapse {
+					a:hover {
+						background-color: transparent;
+					}
+					
+				}
+				padding: 0px;
+			}
+			.respon {
+				button {
+					margin-right: 5px;
+				}
+				padding: 0px;
+			}
+			button {
+				background-color: transparent;
+				border: none;
+				color: #728d9e;
+			}
+			padding: 0px;	
+		}
+		background-color: #283337;
+		padding: 20px 15px;
+		margin-bottom: 20px;
+	}
+	.comment {
+		.list-group-item {
+			.group {
+				button.labelink {
+					margin: 0px;
+					background-color: $menu_color;
+					color: #283337;
+					padding: 8px 15px;
+					border: 1px solid #283337;
+					border-radius: 5px;
+					font-size: 10px;
+					font-weight: 600;
+					font-family: 'Open Sans', sans-serif;
+					letter-spacing: 0.8px;
+				}
+				button.labelink:hover {
+					text-decoration: none;
+					background-color: #283337;
+					color: $menu_color;
+				}
+			}	
+		}
+	}
+}

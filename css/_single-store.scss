@@ -1,0 +1,136 @@
+//----------SINGLE-STORE----------//
+button.labelink {
+			margin: 0px;
+			background-color: #283337;
+			color: $menu_color;
+			padding: 8px 15px;
+			border: 1px solid #283337;
+			border-radius: 5px;
+			font-size: 10px;
+			font-weight: 600;
+			font-family: 'Open Sans', sans-serif;
+			letter-spacing: 0.8px;
+		}
+		button.labelink:hover {
+			text-decoration: none;
+			background-color: $menu_color;	
+			color: #283337;
+		}
+
+.single-store {
+	img {
+		width: 100%;
+	}
+	.detail {
+		h4 {
+			color: $menu_color;
+			margin-top: 0px;
+		}	
+		span {
+			color: #c9244f;
+		}
+		table {
+			td {
+				padding: 5px;
+			}
+			color: #728d9e;
+		}
+		p {
+			color: #728d9e;
+		}
+	}
+	display: inline-block;
+	margin-bottom: 30px;	
+}
+
+.related-product {
+	h3, h5 {
+		color:$menu_color;
+		margin-bottom: 30px;
+	}
+	span {
+		color: #c9244f;
+	}
+	h3:before {
+		content:"";
+	    display: inline-block;
+	    height: 0.5em;
+	    vertical-align: bottom;
+	    width: 3%;
+	    margin-left: 0%;
+	    margin-right: 20px;
+	    border-top: 5px solid $menu_color;
+	}
+	h3:after {
+		content:"";
+	    display: inline-block;
+	    height: 0.5em;
+	    vertical-align: bottom;
+	    width: 61%;
+	    margin-right: -100%;
+	    margin-left: 20px;
+	    border-top: 5px solid $menu_color;
+	}
+	.listProduct {
+		.product {
+			.gambar {
+				.tip {
+					h5 {
+						font-size: 14px;
+						margin-bottom: 20px;
+						margin-top: 0px;
+					}
+					img {
+						width: 100%;
+					}
+					visibility: hidden;
+					width: 350px;
+					background: rgba(0, 0, 0, 0.8);
+					color: #fff;
+					border-radius: 6px;
+					padding: 20px 0px;
+					position: absolute;
+					z-index: 5;
+					bottom: -80%;
+					left: 90%;
+					margin-left: -60px;
+					opacity: 0;
+					transition: opacity 0.3s;
+				}
+				a:hover {
+					opacity: 1;
+				}
+				padding: 0px;
+				position: relative;
+			}
+			.gambar:hover {
+				.tip {
+					visibility: visible;
+					opacity: 1;
+				}
+			}
+			img {
+				width: 100%;
+			}
+			h5 {
+				margin-bottom: 10px;
+			}
+			a:hover {
+				text-decoration: none;
+				opacity: 0.5;
+			}
+			span {
+				margin-bottom: 10px;
+			}
+			i {
+				color: $menu_color;	
+			}
+		}
+		display: inline-block;
+	}
+	.pager {
+		i {
+			color: #283337;
+		}
+	}
+}

@@ -1,0 +1,84 @@
+//----------STORE----------//
+.store {
+	.listStore {
+		.gambar {
+			.tip {
+				h5 {
+					font-size: 14px;
+					margin-bottom: 20px;
+					margin-top: 0px;
+				}
+				img {
+					width: 100%;
+				}
+				visibility: hidden;
+				width: 350px;
+				background: rgba(0, 0, 0, 0.8);
+				color: #fff;
+				border-radius: 6px;
+				padding: 20px 0px;
+				position: absolute;
+				z-index: 5;
+				bottom: -130%;
+				left: 90%;
+				margin-left: -60px;
+				opacity: 0;
+				transition: opacity 0.3s;
+
+			}
+			padding: 0px;
+			position: relative;
+			display: inline-block;
+		}
+		.gambar:hover {
+			.tip {
+				visibility: visible;
+				opacity: 1;
+			}
+		}
+		.font {
+			h5, i {
+				color: $menu_color;
+				margin-bottom: 15px;
+			}
+			h5 {
+				margin-top: 0px;	
+			}
+			a:hover {
+				text-decoration: none;
+				opacity: 0.5;
+			}
+			.rating {
+				margin-bottom: 20px;
+				color: #c9244f;
+			}
+			button.labelink {
+				margin: 0px;
+				background-color: #283337;
+				color: $menu_color;
+				padding: 8px 15px;
+				border: 1px solid #283337;
+				border-radius: 5px;
+				font-size: 10px;
+				font-weight: 600;
+				font-family: 'Open Sans', sans-serif;
+				letter-spacing: 0.8px;
+			}
+			button.labelink:hover {
+				text-decoration: none;
+				background-color: $menu_color;	
+				color: #283337;
+			}
+			padding: 0px;
+		}
+		padding: 0px;
+		margin-bottom: 10px;
+	}
+	display: inline-block;
+	padding: 0px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+	
+	
+	
